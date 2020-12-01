@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shakespeare-speak</title>
+    
+
+    <style>
+     
+ 
+       .header,.section{
+        display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 88%; 
+          background-color: rgb(0, 255, 255);
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          border: 2px solid rgb(0, 255, 255);
+        }
+
+        .header .header-heading{
+            padding-left: 1rem;
+        }
+
+        .header .header-para,.section .section-heading{
+            padding-top: 1rem;
+            padding-left: 1rem;
+        }
+
+        
+
+        .section .section-btn{
+           
+            padding: 0.3rem;
+            border: 1px solid black;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            margin-right: auto;
+            width: 7rem;
+            outline: none;
+            font-size: large;
+            
+        }
+
+        .section .section-btn:hover{
+
+            background-color: #fff;
+        }
+
+        .output,.textarea{
+            border: 1px solid black;
+            height: 9rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 87%;
+            padding: 0.3rem;
+            text-align: left;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+ 
+        }
+    </style>
+
+
+</head>
+<body>
+   
+    <div class="header">
+    <h2 class="header-heading">Talk shakespeare</h2>
+    <p class="header-para">Type your text below to convert to Shakespeare English using our Shakespeare translator 👇</p>
+    </div>
+    <textarea placeholder="write here to translate"  class="textarea"></textarea>
+    <div class="section">
+    <button class="section-btn">Translate</button>
+    <p class="section-heading">Output will come here 👇</p>
+    </div>
+    <div class="output"></div>
+    <div class="footer">
+
+    </div>
+    
+    
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
